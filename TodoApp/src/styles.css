@@ -64,3 +64,16 @@
     font-size: 20px;
     border: none;
 }
+@media(max-width: 760px){
+    .input{
+        width:95%;
+
+    }
+    .lists{
+        width: 95%;
+
+    }
+    .single_todo{
+        width: 100%;
+    }
+}

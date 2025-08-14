@@ -20,8 +20,9 @@ const Inputfield: React.FC<Props> = ({todo, setTodo ,handled}) => {
               value={todo}
               onChange={
                 (e)=>setTodo(e.target.value)
+                
               }
-               className='input_box' />
+               className='input_box' required />
             <button
              type='submit'
              className='input_submit'
